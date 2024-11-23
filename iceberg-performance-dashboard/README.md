@@ -7,9 +7,9 @@ This repository provides code to create a production-ready CloudWatch dashboard 
 - **Athena Query Insights**: Displays query logs, execution time, and scanned partitions.
 
 ## Structure
-- `dashboard/lambda`: Lambda function to collect Iceberg metadata.
-- `dashboard/terraform`: Terraform code to set up CloudWatch Dashboard and Lambda.
-- `dashboard/cloudwatch-dashboard.json`: Pre-configured dashboard template.
+- `lambda`: Lambda function to collect Iceberg metadata.
+- `terraform`: Terraform code to set up CloudWatch Dashboard and Lambda.
+- `cloudwatch-dashboard.json`: Pre-configured dashboard template.
 
 ## Deployment
 1. Deploy Lambda: Upload `metadata_collector.zip` to AWS Lambda.
