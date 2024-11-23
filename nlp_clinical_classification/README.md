@@ -14,7 +14,7 @@ This project leverages Natural Language Processing (NLP) techniques to classify 
 
 ## Setup & Installation
 1. Clone the repository:  
-   `git clone https://github.com/yourusername/nlp-clinical-classification.git`
+   `git clone https://github.com/Anurag0123/data-management.git`
 
 2. Install dependencies creating a requirements:  
    `pip install -r requirements.txt`
